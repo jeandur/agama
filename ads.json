@@ -12,6 +12,9 @@
         "tags": [
             "jans"
         ],
-        "noDirectLaunch": []
+        "noDirectLaunch": [],
+        "configs": {
+            "jeandur.test.upw": {}
+        }
     }
 }
