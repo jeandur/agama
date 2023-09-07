@@ -1,5 +1,6 @@
 // 
 Flow __________
      Basepath ""
+     Configs conf
 // 
 creds = RRF "first.ftlh" 
