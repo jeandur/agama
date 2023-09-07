@@ -3,6 +3,81 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-rrf-Node-602e6042-7e0d-48a4-a105-e4bed4254b48",
+			"position": {
+				"x": 219,
+				"y": 118
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-602e6042-7e0d-48a4-a105-e4bed4254b48",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 219,
+					"y": 118
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-602e6042-7e0d-48a4-a105-e4bed4254b48",
+					"type": "Agama-rrf-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"templatePath": "first.fthl",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "ph:globe-simple",
+					"asssignedVariableName": "creds"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 219,
+				"y": 118
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445",
 			"type": "start",
 			"sourcePosition": "right",
@@ -10,8 +85,8 @@
 				"id": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 30,
-					"y": 30
+					"x": 19,
+					"y": 118
 				},
 				"inRepeatBlock": false,
 				"agamaData": {
@@ -29,7 +104,13 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
@@ -51,21 +132,42 @@
 					"exceptionVariableField": "",
 					"hasExtraData": false,
 					"configParams": "{}",
-					"flowname": "jeandur.flow"
+					"flowname": "jeandur.flow",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
 				"skake": true
 			},
 			"position": {
-				"x": 30,
-				"y": 30
+				"x": 19,
+				"y": 118
 			},
 			"positionAbsolute": {
-				"x": 30,
-				"y": 30
+				"x": 19,
+				"y": 118
+			},
+			"selected": false,
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445-Agama-rrf-Node-602e6042-7e0d-48a4-a105-e4bed4254b48-459f0865-6ea4-4579-bd05-21e226032cb8",
+			"type": "straight",
+			"source": "Agama-start-Flow-16473ee3-0b45-451f-a930-a92df4d91445",
+			"target": "Agama-rrf-Node-602e6042-7e0d-48a4-a105-e4bed4254b48",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
 			}
 		}
 	],
-	"edges": [],
 	"viewport": {
 		"x": 10,
 		"y": 15,
