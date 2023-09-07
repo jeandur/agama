@@ -1,1 +1,17 @@
-{}
+{
+    "upwd": {
+        "projectName": "upwd",
+        "description": "test",
+        "type": "community",
+        "author": "jeandur",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/jeandur/agama",
+        "githubUri": "https://github.com/jeandur/agama",
+        "license": "MIT",
+        "lastUpdated": "1694068174406",
+        "tags": [
+            "jans"
+        ],
+        "noDirectLaunch": []
+    }
+}
