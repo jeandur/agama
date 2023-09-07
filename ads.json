@@ -15,7 +15,8 @@
         "noDirectLaunch": [],
         "configs": {
             "jeandur.test.upw": {},
-            "jeandur.flow": {}
+            "jeandur.flow": {},
+            "jeandur.upw": {}
         }
     }
 }
